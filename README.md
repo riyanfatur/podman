@@ -8,7 +8,7 @@ NIM : 205611062
 
 
 ### #1 - Apa itu Podman?
-Podman adalah tools asli dari Linux yang bersifat open source dan daemonless yang dirancang untuk memudahkan pencarian, menjalankan, membangun, sharing, dan distribusi aplikasi menggunakan Open Containers Initiative (OCI). Podman menyediakan command line interface (CLI) yang familiar bagi siapa saja yang pernah menggunakan Docker Container Engine. Sebagian besar pengguna dapat mengubah dari docker menjadi podman tanpa masalah yang berarti. Mirip dengan Container Engine umum lainnya (Docker, CRI-O, containerd), Podman mengandalkan Container Runtime yang sesuai dengan OCI (runc, crun, runv, dll.) untuk berinteraksi dengan sistem operasi dan membuat container yang berjalan. Hal ini membuat container yang berjalan yang dibuat oleh Podman hampir tidak dapat dibedakan dari yang dibuat oleh mesin container umum lainnya.
+Podman adalah tools asli dari Linux yang bersifat open source dan daemonless yang dirancang untuk memudahkan pencarian, menjalankan, membangun, sharing, dan distribusi aplikasi menggunakan Open Containers Initiative (OCI). Podman menyediakan command line interface (CLI) yang familiar bagi siapa saja yang pernah menggunakan Docker Container Engine. Sebagian besar pengguna dapat mengubah dari docker menjadi podman tanpa masalah yang berarti. Mirip dengan Container Engine umum lainnya (Docker, CRI-O, containerd), Podman mengandalkan Container Runtime yang sesuai dengan OCI (runc, crun, runv, dll.) untuk berinteraksi dengan sistem operasi dan membuat container yang berjalan. Hal ini membuat container yang berjalan yang dibuat oleh Podman hampir tidak dapat dibedakan dari yang dibuat oleh mesin container umum lainnya. 
 
 ### #2 - Instalasi Podman pada Windows
 1. Download Podman Windows installer
