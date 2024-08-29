@@ -8,6 +8,7 @@ Podman adalah tools asli dari Linux yang bersifat open source dan daemonless yan
 ![02](img/img2.jpg)
 
 ![03](img/img3.jpg)
+
 Setelah download podman, podman.exe akan tersimpan di PATH, dan kita akan dapat menjalankan perintah podman machine init untuk membuat machine pertama kita.
 
 #### Step 2.1 - Instalasi WSL Otomatis
@@ -70,3 +71,26 @@ NAME                    VM TYPE     CREATED      LAST UP            CPUS        
 podman-test-riyan        wsl       1 hours ago  Currently running   4           200.1MB     570MB
 ```
 
+#### Step 2.6 - Menghentikan Mesin Podman
+1. Untuk menghentikan mesin podman yang sedang berjalan, gunakan perintah berikut:
+```
+PS C:\Users\Riyan> podman machine stop
+Machine "podman-test-riyan" stopped successfully
+```
+
+#### Step 2.7 - Menghapus Mesin Podman
+1. Untuk menghapus mesin, gunakan perintah `podman machine rm`: 
+```
+PS C:\Users\User> podman machine rm
+
+The following files will be deleted:
+
+C:\Users\User\.ssh\podman-test-riyan
+C:\Users\User\.ssh\podman-test-riyan.pub
+C:\Users\User\.local\share\containers\podman\machine\wsl\podman-test-riyan_fedora-35-x86_64.tar
+C:\Users\User\.config\containers\podman\machine\wsl\podman-test-riyan.json
+C:\Users\User\.local\share\containers\podman\machine\wsl\wsldist\podman-test-riyan
+
+
+Are you sure you want to continue? [y/N] y
+```
